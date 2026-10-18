@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "envshield"
+version = "0.1.0"
+authors = [
+  { name="Hamidreza", email="h4midrezam@gmail.com" },
+]
+description = "Lightweight environment configuration validator and secret exposure sanitizer."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Security",
+]
+
+[project.scripts]
+envshield = "envshield.cli:main"
