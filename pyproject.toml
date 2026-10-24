@@ -1,9 +1,9 @@
 [build-system]
-requires = ["setuptools>=61.0"]
+requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "envshield"
+name = "pyenvshield"
 version = "0.1.0"
 authors = [
   { name="Hamidreza", email="h4midrezam@gmail.com" },
@@ -11,9 +11,9 @@ authors = [
 description = "Lightweight environment configuration validator and secret exposure sanitizer."
 readme = "README.md"
 requires-python = ">=3.9"
+license = "MIT"
 classifiers = [
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Topic :: Security",
 ]
